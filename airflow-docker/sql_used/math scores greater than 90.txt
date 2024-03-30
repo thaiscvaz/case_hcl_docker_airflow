@@ -1,0 +1,7 @@
+select 
+    "name",
+    "grades":math::float AS math_grade,
+from 
+    views_students.students_semantic."final_merged" 
+WHERE 
+    "grades":math::float > 90;

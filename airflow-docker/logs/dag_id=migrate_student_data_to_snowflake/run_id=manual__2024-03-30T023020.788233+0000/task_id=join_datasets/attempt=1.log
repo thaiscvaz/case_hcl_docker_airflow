@@ -1,0 +1,66 @@
+[2024-03-30T02:30:26.182+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: migrate_student_data_to_snowflake.join_datasets manual__2024-03-30T02:30:20.788233+00:00 [queued]>
+[2024-03-30T02:30:26.201+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: migrate_student_data_to_snowflake.join_datasets manual__2024-03-30T02:30:20.788233+00:00 [queued]>
+[2024-03-30T02:30:26.202+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-30T02:30:26.215+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): join_datasets> on 2024-03-30 02:30:20.788233+00:00
+[2024-03-30T02:30:26.226+0000] {standard_task_runner.py:60} INFO - Started process 85 to run task
+[2024-03-30T02:30:26.229+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'migrate_student_data_to_snowflake', 'join_datasets', 'manual__2024-03-30T02:30:20.788233+00:00', '--job-id', '190', '--raw', '--subdir', 'DAGS_FOLDER/student_data_migration.py', '--cfg-path', '/tmp/tmp3g3pbj1e']
+[2024-03-30T02:30:26.232+0000] {standard_task_runner.py:88} INFO - Job 190: Subtask join_datasets
+[2024-03-30T02:30:26.275+0000] {task_command.py:423} INFO - Running <TaskInstance: migrate_student_data_to_snowflake.join_datasets manual__2024-03-30T02:30:20.788233+00:00 [running]> on host c5cf3f729977
+[2024-03-30T02:30:26.342+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='migrate_student_data_to_snowflake' AIRFLOW_CTX_TASK_ID='join_datasets' AIRFLOW_CTX_EXECUTION_DATE='2024-03-30T02:30:20.788233+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-30T02:30:20.788233+00:00'
+[2024-03-30T02:30:26.349+0000] {student_data_migration.py:106} INFO - Datasets joined successfully.
+[2024-03-30T02:30:26.350+0000] {python.py:202} INFO - Done. Returned value was:    student_id  ... missed_days
+0        S001  ...         3.0
+1        S002  ...         5.0
+2        S003  ...         2.0
+3        S004  ...         1.0
+4        S005  ...         4.0
+5        S006  ...         2.0
+6        S007  ...         3.0
+7        S008  ...         1.0
+8        S009  ...         6.0
+9        S010  ...         3.0
+10       S011  ...         4.0
+11       S012  ...         2.0
+12       S013  ...         5.0
+13       S014  ...         3.0
+14       S015  ...         2.0
+15       S016  ...         4.0
+16       S017  ...         3.0
+17       S018  ...         1.0
+18       S019  ...         2.0
+19       S020  ...         5.0
+20       S021  ...         3.0
+21       S022  ...         4.0
+22       S023  ...         2.0
+23       S024  ...         1.0
+24       S025  ...         5.0
+25       S026  ...         2.0
+26       S027  ...         3.0
+27       S028  ...         4.0
+28       S029  ...         2.0
+29       S030  ...         1.0
+30       S031  ...         3.0
+31       S072  ...         0.0
+32       S073  ...         0.0
+33       S034  ...         4.0
+34       S035  ...         3.0
+35       S036  ...         1.0
+36       S037  ...         2.0
+37       S038  ...         5.0
+38       S039  ...         3.0
+39       S040  ...         4.0
+40       S041  ...         2.0
+41       S042  ...         1.0
+42       S043  ...         5.0
+43       S044  ...         3.0
+44       S045  ...         2.0
+45       S046  ...         4.0
+46       S047  ...         3.0
+47       S048  ...         1.0
+48       S049  ...         2.0
+49       S050  ...         5.0
+
+[50 rows x 4 columns]
+[2024-03-30T02:30:26.415+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=migrate_student_data_to_snowflake, task_id=join_datasets, execution_date=20240330T023020, start_date=20240330T023026, end_date=20240330T023026
+[2024-03-30T02:30:26.442+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-30T02:30:26.459+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
