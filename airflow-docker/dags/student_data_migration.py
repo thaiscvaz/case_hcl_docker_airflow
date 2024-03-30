@@ -114,7 +114,7 @@ def load_data_to_snowflake(df_merged):
     try:
         # Connect to Snowflake
         conn = snowflake.connector.connect(
-            user='thaiscvaz',
+            user='thaiscxxx',
             password='xxx*',
             account='xxx'
             #database='VIEWS_STUDENTS',
