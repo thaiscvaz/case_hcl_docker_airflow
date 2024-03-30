@@ -1,0 +1,505 @@
+{
+  "students": [
+    {
+      "student_id": "S001",
+      "name": "Alice Johnson",
+      "grades": {
+        "math": 90,
+        "science": 85,
+        "history": 78,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S002",
+      "name": "Bob Smith",
+      "grades": {
+        "math": 88,
+        "science": 76,
+        "history": 82,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S003",
+      "name": "Charlie Brown",
+      "grades": {
+        "math": 92,
+        "science": 89,
+        "history": 80,
+        "english": 94
+      }
+    },
+    {
+      "student_id": "S004",
+      "name": "David Lee",
+      "grades": {
+        "math": 78,
+        "science": 92,
+        "history": 85,
+        "english": 88
+      }
+    },
+    {
+      "student_id": "S005",
+      "name": "Eva Martinez",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S006",
+      "name": "Frank Wilson",
+      "grades": {
+        "math": 91,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S007",
+      "name": "Grace Adams",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S008",
+      "name": "Hannah White",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S009",
+      "name": "Ian Hall",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S010",
+      "name": "Jessica Turner",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S011",
+      "name": "Kevin Parker",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S012",
+      "name": "Linda Brooks",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S013",
+      "name": "Michael Green",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S014",
+      "name": "Natalie Adams",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S015",
+      "name": "Olivia Foster",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S016",
+      "name": "Peter Turner",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S017",
+      "name": "Quincy Parker",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S018",
+      "name": "Rachel Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S019",
+      "name": "Samuel Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S020",
+      "name": "Taylor Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S021",
+      "name": "Uma Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S022",
+      "name": "Victor Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S023",
+      "name": "Wendy Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S024",
+      "name": "Xander Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S025",
+      "name": "Yara Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S026",
+      "name": "Zachary Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S027",
+      "name": "Ava Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S028",
+      "name": "Benjamin Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S029",
+      "name": "Catherine Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S030",
+      "name": "Daniel Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S031",
+      "name": "Emily Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S072",
+      "name": "Finn Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S073",
+      "name": "Grace Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S034",
+      "name": "Henry Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S035",
+      "name": "Isabella Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S036",
+      "name": "Jacob Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S037",
+      "name": "Katherine Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S038",
+      "name": "Liam Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S039",
+      "name": "Mia Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S040",
+      "name": "Noah Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S041",
+      "name": "Olivia Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S042",
+      "name": "Peter Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S043",
+      "name": "Quincy Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S044",
+      "name": "Rachel Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S045",
+      "name": "Samuel Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    },
+    {
+      "student_id": "S046",
+      "name": "Taylor Adams",
+      "grades": {
+        "math": 92,
+        "science": 84,
+        "history": 89,
+        "english": 76
+      }
+    },
+    {
+      "student_id": "S047",
+      "name": "Uma Turner",
+      "grades": {
+        "math": 76,
+        "science": 88,
+        "history": 90,
+        "english": 85
+      }
+    },
+    {
+      "student_id": "S048",
+      "name": "Victor Hall",
+      "grades": {
+        "math": 94,
+        "science": 78,
+        "history": 88,
+        "english": 81
+      }
+    },
+    {
+      "student_id": "S049",
+      "name": "Wendy Brooks",
+      "grades": {
+        "math": 89,
+        "science": 92,
+        "history": 84,
+        "english": 90
+      }
+    },
+    {
+      "student_id": "S050",
+      "name": "Xander Green",
+      "grades": {
+        "math": 85,
+        "science": 90,
+        "history": 76,
+        "english": 92
+      }
+    }
+  ]
+}
+

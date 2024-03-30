@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS FINAL_MERGED (
+    student_id VARCHAR,
+    grades VARCHAR,
+    missed_days FLOAT 
+)

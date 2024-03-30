@@ -1,0 +1,14 @@
+##### Set the current directory to the project folder: #####
+cd airflow_project
+
+##### Then run the command: #####
+docker build . --tag apache/airflow:2.8.4
+docker build . --tag extending_airflow:latest
+
+### This command executes the Dockerfile: ###
+
+#### Video to understand about: ####
+https://www.youtube.com/watch?v=0UepvC9X4HY
+
+##### Finally, run the command: #####
+docker-compose up

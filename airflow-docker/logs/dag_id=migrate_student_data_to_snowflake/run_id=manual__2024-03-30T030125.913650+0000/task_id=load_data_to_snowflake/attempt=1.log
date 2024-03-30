@@ -1,0 +1,50 @@
+[2024-03-30T03:01:32.651+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: migrate_student_data_to_snowflake.load_data_to_snowflake manual__2024-03-30T03:01:25.913650+00:00 [queued]>
+[2024-03-30T03:01:32.658+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: migrate_student_data_to_snowflake.load_data_to_snowflake manual__2024-03-30T03:01:25.913650+00:00 [queued]>
+[2024-03-30T03:01:32.663+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-30T03:01:32.675+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): load_data_to_snowflake> on 2024-03-30 03:01:25.913650+00:00
+[2024-03-30T03:01:32.681+0000] {standard_task_runner.py:60} INFO - Started process 99 to run task
+[2024-03-30T03:01:32.685+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'migrate_student_data_to_snowflake', 'load_data_to_snowflake', 'manual__2024-03-30T03:01:25.913650+00:00', '--job-id', '245', '--raw', '--subdir', 'DAGS_FOLDER/student_data_migration.py', '--cfg-path', '/tmp/tmpyk8gvewz']
+[2024-03-30T03:01:32.688+0000] {standard_task_runner.py:88} INFO - Job 245: Subtask load_data_to_snowflake
+[2024-03-30T03:01:32.731+0000] {task_command.py:423} INFO - Running <TaskInstance: migrate_student_data_to_snowflake.load_data_to_snowflake manual__2024-03-30T03:01:25.913650+00:00 [running]> on host 683019c18b1b
+[2024-03-30T03:01:33.005+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='migrate_student_data_to_snowflake' AIRFLOW_CTX_TASK_ID='load_data_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2024-03-30T03:01:25.913650+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-30T03:01:25.913650+00:00'
+[2024-03-30T03:01:33.007+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.8.19, Platform: Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2024-03-30T03:01:33.008+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-03-30T03:01:33.888+0000] {cursor.py:1032} INFO - query: [CREATE DATABASE IF NOT EXISTS VIEWS_STUDENTS]
+[2024-03-30T03:01:34.018+0000] {cursor.py:1045} INFO - query execution done
+[2024-03-30T03:01:34.019+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-03-30T03:01:34.020+0000] {cursor.py:1032} INFO - query: [USE DATABASE VIEWS_STUDENTS]
+[2024-03-30T03:01:34.111+0000] {cursor.py:1045} INFO - query execution done
+[2024-03-30T03:01:34.111+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-03-30T03:01:34.112+0000] {cursor.py:1032} INFO - query: [CREATE SCHEMA IF NOT EXISTS STUDENTS_SEMANTIC]
+[2024-03-30T03:01:34.179+0000] {cursor.py:1045} INFO - query execution done
+[2024-03-30T03:01:34.180+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-03-30T03:01:34.180+0000] {cursor.py:1032} INFO - query: [USE SCHEMA STUDENTS_SEMANTIC]
+[2024-03-30T03:01:34.259+0000] {cursor.py:1045} INFO - query execution done
+[2024-03-30T03:01:34.260+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-03-30T03:01:34.261+0000] {cursor.py:1032} INFO - query: [CREATE OR REPLACE TABLE FINAL_MERGED ( student_id VARCHAR, name VARCHAR, grades ...]
+[2024-03-30T03:01:34.537+0000] {cursor.py:1045} INFO - query execution done
+[2024-03-30T03:01:34.538+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-03-30T03:01:34.539+0000] {student_data_migration.py:148} ERROR - Error loading data into Snowflake: not all arguments converted during string formatting
+[2024-03-30T03:01:34.540+0000] {connection.py:734} INFO - closed
+[2024-03-30T03:01:34.573+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2024-03-30T03:01:34.628+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/student_data_migration.py", line 138, in load_data_to_snowflake
+    cursor.execute(query, (
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 1000, in execute
+    query = self._preprocess_pyformat_query(command, params)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 832, in _preprocess_pyformat_query
+    query = command % processed_params
+TypeError: not all arguments converted during string formatting
+[2024-03-30T03:01:34.647+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=migrate_student_data_to_snowflake, task_id=load_data_to_snowflake, execution_date=20240330T030125, start_date=20240330T030132, end_date=20240330T030134
+[2024-03-30T03:01:34.700+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 245 for task load_data_to_snowflake (not all arguments converted during string formatting; 99)
+[2024-03-30T03:01:34.747+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-30T03:01:34.785+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

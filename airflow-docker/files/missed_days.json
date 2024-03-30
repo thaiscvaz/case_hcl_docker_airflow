@@ -1,0 +1,205 @@
+{
+  "missed_classes": [
+    {
+      "student_id": "S001",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S002",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S003",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S004",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S005",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S006",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S007",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S008",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S009",
+      "missed_days": 6
+    },
+    {
+      "student_id": "S010",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S011",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S012",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S013",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S014",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S015",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S016",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S017",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S018",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S019",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S020",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S021",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S022",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S023",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S024",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S025",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S026",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S027",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S028",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S029",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S030",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S031",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S032",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S033",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S034",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S035",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S036",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S037",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S038",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S039",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S040",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S041",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S042",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S043",
+      "missed_days": 5
+    },
+    {
+      "student_id": "S044",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S045",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S046",
+      "missed_days": 4
+    },
+    {
+      "student_id": "S047",
+      "missed_days": 3
+    },
+    {
+      "student_id": "S048",
+      "missed_days": 1
+    },
+    {
+      "student_id": "S049",
+      "missed_days": 2
+    },
+    {
+      "student_id": "S050",
+      "missed_days": 5
+    }
+  ]
+}
+
